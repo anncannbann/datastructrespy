@@ -15,7 +15,7 @@ class Node:
     
     def PrintTree(self):
         # print(self.val)
-        if (not data):
+        if (not self.data):
             return 
         if self.left:
                 self.left.PrintTree()
@@ -49,11 +49,6 @@ root.left.right = Node(12)
 root.right = Node(9) 
 root.right.left = Node(15) 
 root.right.right = Node(8) 
-print("The tree before the deletion:") 
-# root.addNode(2)
-# root.addNode(3)
-# root.addNode(4)
-# root.addNode(5)
-# root.addNode(6)
+root.addNode(4)
 
 root.PrintTree()
